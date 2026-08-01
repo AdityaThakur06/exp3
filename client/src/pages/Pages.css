@@ -1,0 +1,149 @@
+.page {
+  padding: 30px 26px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page--centered {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 26px 28px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.card--narrow {
+  max-width: 420px;
+  text-align: center;
+}
+
+.card h1 {
+  margin-top: 0;
+  color: #1e293b;
+}
+
+.card__grid {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.card__tile {
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 14px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.card__tile:hover {
+  background: #e0e7ff;
+}
+
+.auth-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 32px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 380px;
+}
+
+.auth-card h1 {
+  margin-top: 0;
+  color: #1e293b;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.auth-card label {
+  font-size: 0.82rem;
+  color: #475569;
+  margin-top: 8px;
+}
+
+.auth-card input {
+  padding: 9px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.auth-card button {
+  margin-top: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #1e293b;
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.auth-card button:hover {
+  background: #0f172a;
+}
+
+.auth-card button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.auth-card__error {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin: 6px 0 0;
+}
+
+.auth-card__hint {
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.78rem;
+  color: #6b7280;
+}
+
+.auth-card__hint ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+
+.profile-table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.profile-table th,
+.profile-table td {
+  text-align: left;
+  padding: 8px 16px 8px 0;
+  font-size: 0.9rem;
+}
+
+.profile-table th {
+  color: #6b7280;
+  width: 100px;
+}
+
+.panel-data {
+  margin-top: 12px;
+  padding-left: 20px;
+  color: #374151;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
